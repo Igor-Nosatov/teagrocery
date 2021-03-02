@@ -1,0 +1,2 @@
+export const SET_POSTS_TO_STATE = 'SET_POSTS_TO_STATE';
+export const SET_POST_TO_STATE = 'SET_POST_TO_STATE';

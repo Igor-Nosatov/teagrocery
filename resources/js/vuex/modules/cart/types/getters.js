@@ -1,0 +1,3 @@
+export const CART_TOTAL_SUM = 'CART_TOTAL_SUM';
+export const GET_CART_PRODUCTS = 'GET_CART_PRODUCTS';
+export const GET_SUM_SUBTOTAL = 'GET_SUM_SUBTOTAL';

@@ -1,0 +1,43 @@
+.card-img-top{
+   height:200px;
+   min-width:150px;
+}
+.card-title{
+    height:77px;
+} 
+.card-text{
+padding-bottom: 20px;
+}
+.btn-main{
+    color:rgb(54, 53, 53)!important;
+}
+
+input::placeholder {
+    color:rgb(3, 3, 3) !important;
+  }
+.singl-product-img{
+   height: 300px!important;
+}
+.pagination-lg .page-link {
+    padding: .65rem 1.3rem .75rem 1.2rem !important;
+}
+.product-cart-image>picture>.cart-img{
+    height:90px !important;
+}
+.product-cart-name{
+   width: 400px;
+}
+.picture{
+    height:100%;
+}
+.btn-cancel,
+.subscribe-btn{
+    outline:none !important;
+}
+
+.post-image {
+    height: 300px !important;
+}
+.footer__form-control {
+    width: 75%!important;
+}

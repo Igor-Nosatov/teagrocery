@@ -1,0 +1,5 @@
+export const GET_SINGLE_PRODUCT = 'GET_SINGLE_PRODUCT';
+export const GET_TO_CART = 'GET_TO_CART';
+export const GET_TO_WISHLIST = 'GET_TO_WISHLIST';
+
+

@@ -1,0 +1,3 @@
+export const ADD_CHECKOUT_DATA = 'ADD_CHECKOUT_DATA';
+
+
