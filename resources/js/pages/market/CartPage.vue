@@ -1,7 +1,7 @@
 <template>
     <main class="main pt-5 pb-5">
         <div class="wrapper">
-            <div class="row no-gutters">
+            <div v-if="carts.length" class="row no-gutters">
                 <BreadcrumbItem :pageName="pageName" class="pl-4" />
                 
                 <CartItem
@@ -58,6 +58,15 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div v-if="!carts.length">
+                <div class="total-price-block mt-4 mb-4 pl-5 pr-5 mx-auto">
+                    <h2>
+                        Вы ещё не добавили товар, вернитесь назад или
+                        перейдите в каталог или на главную страницу
+                    </h2>
+                    <router-link :to="{ name: 'home' }" class="btn-main w-25 mt-2 p-3">Главная страница</router-link>
                 </div>
             </div>
         </div>
