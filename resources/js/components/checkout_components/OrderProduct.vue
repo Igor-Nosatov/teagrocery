@@ -4,7 +4,7 @@
         <img :src="'/img/'+cart.products.img" class="checkout-img" />
     </picture> <br>
     <span class="font-weight-bold">{{cart.products.name}}</span>
-    <img :src="`storage/img/close.svg`" alt=""> <span>{{cart.quantity}}шт.</span>
+    <img :src="'/img/close.svg'" alt=""> <span>{{cart.quantity}}шт.</span>
     <hr/>
 </li>
 

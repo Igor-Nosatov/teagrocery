@@ -33,7 +33,7 @@
                             {{ post.name }}
                         </h2>
                         <img
-                            :src="'/storage/img/' + post.img_url"
+                            :src="'/img/' + post.img_url"
                             class="post-image"
                         />
                         <div class="blog-post">

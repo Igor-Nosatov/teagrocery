@@ -10,7 +10,8 @@
             <div class="banner-inner carousel-inner">
                 <div class="carousel-item active">
                     <picture>
-                        <img :src="`storage/img/banner1.jpg`" class="d-block w-100" alt="banner image">
+                        <img :src="'/img/banner1.jpg'"
+                         class="d-block w-100" alt="banner image">
                     </picture>
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="banner-title">Зеленый классический чай</h5>
@@ -19,7 +20,7 @@
                 </div>
                 <div class="carousel-item">
                     <picture>
-                        <img :src="`storage/img/banner2.jpg`" class="d-block w-100" alt="banner image">
+                        <img :src="'/img/banner2.jpg'" class="d-block w-100" alt="banner image">
                     </picture>
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="banner-title">Белый чай</h5>
@@ -28,7 +29,7 @@
                 </div>
                 <div class="carousel-item">
                     <picture>
-                        <img :src="`storage/img/banner1.jpg`" class="d-block w-100" alt="banner image">
+                        <img :src="'/img/banner1.jpg'" class="d-block w-100" alt="banner image">
                     </picture>
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="banner-title">Черный чай</h5>
@@ -38,12 +39,13 @@
             </div>
             <a class="carousel-control-prev" href="#carouselBannerIndicators" role="button" data-slide="prev">
                 <picture>
-                    <img :src="`storage/img/left.svg`" alt="" class="arrow-icon">
-                </picture> <span class="sr-only">Previous</span>
+                    <img :src="'/img/left.svg'" alt="" class="arrow-icon">
+                </picture> 
+                <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselBannerIndicators" role="button" data-slide="next">
                 <picture>
-                    <img :src="`storage/img/right.svg`" alt="" class="arrow-icon">
+                    <img :src="'/img/right.svg'" alt="" class="arrow-icon">
                 </picture> <span class="sr-only">Next</span>
             </a>
         </div>

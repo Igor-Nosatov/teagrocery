@@ -4,7 +4,7 @@
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                 <picture>
                     <img
-                        :src="'/storage/img/' + post.img_url"
+                        :src="'/img/' + post.img_url"
                         class="post-image"
                     />
                 </picture>
@@ -32,7 +32,7 @@
                                 >Читать далее
                                 <picture>
                                     <img
-                                        :src="`storage/img/link.svg`"
+                                        :src="'/img/link.svg'"
                                         alt="post.title"
                                     />
                                 </picture>

@@ -206,7 +206,8 @@
                         <p
                             class="text-right text-white font-weight-bold pt-2 pl-4 pr-3"
                         >
-                            teagrocery@gmail.com
+                            teagrocery@gmail.com <br>
+                            Demo App
                         </p>
                     </div>
                 </div>

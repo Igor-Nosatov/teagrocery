@@ -20,7 +20,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -35,7 +35,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -50,7 +50,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -65,7 +65,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -80,7 +80,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -95,7 +95,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -118,7 +118,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '1',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -143,7 +143,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '2',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -164,7 +164,6 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '2',
-            'producer_id' => '2',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -185,7 +184,6 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '2',
-            'producer_id' => '2',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -200,7 +198,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '2',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -217,7 +215,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '2',
-            'producer_id' => '3',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -235,7 +233,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '3',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -250,7 +248,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '3',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -265,7 +263,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '3',
-            'producer_id' => '3',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -280,7 +278,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '3',
-            'producer_id' => '4',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -295,7 +293,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '3',
-            'producer_id' => '4',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -310,7 +308,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '3',
-            'producer_id' => '1',
+          
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -329,7 +327,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '4',
-            'producer_id' => '4',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -348,7 +346,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '4',
-            'producer_id' => '4',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -363,7 +361,6 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '4',
-            'producer_id' => '2',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -379,7 +376,6 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '4',
-            'producer_id' => '2',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -394,7 +390,6 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '4',
-            'producer_id' => '2',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -413,7 +408,7 @@ class ProductSeeder extends Seeder
             'type_id'=> '1',
             'slug' => 'tea',
             'category_id' => '4',
-            'producer_id' => '4',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -441,7 +436,6 @@ class ProductSeeder extends Seeder
             'slug' => 'sets',
             'type_id'=>'6',
             'category_id' => '4',
-            'producer_id' => '21',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -456,7 +450,6 @@ class ProductSeeder extends Seeder
            'slug' => 'sets',
            'type_id'=>'6',
             'category_id' => '4',
-            'producer_id' => '21',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -473,7 +466,6 @@ class ProductSeeder extends Seeder
            'slug' => 'sets',
            'type_id'=>'6',
             'category_id' => '2',
-            'producer_id' => '22',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -488,7 +480,6 @@ class ProductSeeder extends Seeder
            'slug' => 'sets',
            'type_id'=>'6',
             'category_id' => '2',
-            'producer_id' => '23',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -505,7 +496,6 @@ class ProductSeeder extends Seeder
             'slug' => 'sets',
             'type_id'=>'6',
             'category_id' => '3',
-            'producer_id' => '24',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -520,7 +510,6 @@ class ProductSeeder extends Seeder
            'slug' => 'sets',
            'type_id'=>'6',
             'category_id' => '3',
-            'producer_id' => '21',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -538,7 +527,6 @@ class ProductSeeder extends Seeder
            'slug' => 'sets',
            'type_id'=>'6',
             'category_id' => '4',
-            'producer_id' => '22',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -553,25 +541,9 @@ class ProductSeeder extends Seeder
             'slug' => 'sets',
             'type_id'=>'6',
             'category_id' => '4',
-            'producer_id' => '23',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         DB::table('products')->insert([
             'name' => 'Кофе Barista Mio "Для чашки" 250 гр молотый',
@@ -585,7 +557,7 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '9',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -600,7 +572,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '10',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -616,7 +587,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -631,7 +601,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -646,7 +615,7 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '9',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -661,7 +630,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -680,7 +648,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -695,7 +662,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -711,7 +677,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -726,7 +691,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '10',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -741,7 +705,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '10',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -756,7 +719,7 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '9',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -775,7 +738,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '10',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -790,7 +752,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -805,7 +766,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -820,7 +780,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -836,7 +795,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -852,7 +810,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '10',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -871,7 +828,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -886,7 +842,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '10',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -902,7 +857,7 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '11',
-            'producer_id' => '9',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -918,7 +873,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '12',
-            'producer_id' => '10',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -933,7 +887,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '11',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -950,7 +903,6 @@ class ProductSeeder extends Seeder
            'slug' => 'coffee',
             'type_id'=> '3',
             'category_id' => '9',
-            'producer_id' => '12',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -980,7 +932,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '5',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -995,7 +947,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1010,7 +962,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1025,7 +977,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '8',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1040,7 +992,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '5',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1055,7 +1007,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1070,7 +1022,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1085,7 +1037,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '5',
-            'producer_id' => '8',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1105,7 +1057,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '6',
-            'producer_id' => '5',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1121,7 +1073,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '6',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1143,7 +1095,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '6',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1158,7 +1110,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '6',
-            'producer_id' => '8',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1173,7 +1125,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '6',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1188,7 +1140,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '6',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1208,7 +1160,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '7',
-            'producer_id' => '8',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1223,7 +1175,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '7',
-            'producer_id' => '5',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1238,7 +1190,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '7',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1253,7 +1205,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '7',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1268,7 +1220,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '7',
-            'producer_id' => '8',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1283,7 +1235,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '7',
-            'producer_id' => '5',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1301,7 +1253,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '8',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1316,7 +1268,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '8',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1332,7 +1284,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '8',
-            'producer_id' => '8',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1347,7 +1299,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '8',
-            'producer_id' => '5',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1362,7 +1314,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '8',
-            'producer_id' => '6',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1377,7 +1329,7 @@ class ProductSeeder extends Seeder
             'slug' => 'sweets',
             'type_id'=> '2',
             'category_id' => '8',
-            'producer_id' => '7',
+    
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1409,7 +1361,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '26',
             'category_id' => '14',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1438,7 +1389,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '26',
             'category_id' => '24',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1464,7 +1414,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '26',
             'category_id' => '23',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1487,7 +1436,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '26',
             'category_id' => '23',
-            'producer_id' => '28',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1514,7 +1462,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '26',
             'category_id' => '14',
-            'producer_id' => '27',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1539,7 +1486,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '26',
             'category_id' => '14',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1563,7 +1509,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '27',
             'category_id' => '24',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1578,7 +1523,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '27',
             'category_id' => '24',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1593,7 +1537,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '27',
             'category_id' => '24',
-            'producer_id' => '27',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1608,7 +1551,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '27',
             'category_id' => '24',
-            'producer_id' => '28',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1635,7 +1577,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '27',
             'category_id' => '24',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1650,7 +1591,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '28',
             'category_id' => '24',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1685,7 +1625,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '29',
             'category_id' => '3',
-            'producer_id' => '27',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1712,7 +1651,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '29',
             'category_id' => '3',
-            'producer_id' => '28',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1739,7 +1677,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '29',
             'category_id' => '3',
-            'producer_id' => '27',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1778,7 +1715,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '29',
             'category_id' => '3',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1803,7 +1739,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '29',
             'category_id' => '3',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1830,7 +1765,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '29',
             'category_id' => '3',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1849,7 +1783,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '30',
             'category_id' => '3',
-            'producer_id' => '25',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1865,7 +1798,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '30',
             'category_id' => '3',
-            'producer_id' => '2',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1880,7 +1812,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '31',
             'category_id' => '3',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1895,7 +1826,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '32',
             'category_id' => '3',
-            'producer_id' => '27',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1910,7 +1840,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '32',
             'category_id' => '3',
-            'producer_id' => '28',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1925,7 +1854,6 @@ class ProductSeeder extends Seeder
             'type_id'=>'7',
             'brand_id' => '32',
             'category_id' => '3',
-            'producer_id' => '26',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -1951,7 +1879,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '13',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -1967,7 +1895,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '14',
+
               'brand_id'=>'34',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -1982,7 +1910,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '15',
+
               'brand_id'=>'34',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -1998,7 +1926,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '16',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2017,7 +1945,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '13',
+
               'brand_id'=>'35',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2033,7 +1961,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '13',
+
               'brand_id'=>'35',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2049,7 +1977,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '14',
+
               'brand_id'=>'35',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2064,7 +1992,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '14',
-              'producer_id' => '15',
+
               'brand_id'=>'35',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2084,7 +2012,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '15',
-              'producer_id' => '16',
+
               'brand_id'=>'35',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2102,7 +2030,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '15',
-              'producer_id' => '16',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2117,7 +2045,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '15',
-              'producer_id' => '15',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2132,7 +2060,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '15',
-              'producer_id' => '14',
+
               'brand_id'=>'36',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2151,7 +2079,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '16',
-              'producer_id' => '14',
+
               'brand_id'=>'36',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2166,7 +2094,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '16',
-              'producer_id' => '14',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2182,7 +2110,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '16',
-              'producer_id' => '14',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2198,7 +2126,7 @@ class ProductSeeder extends Seeder
               'slug' => 'gifts',
               'type_id'=> '4',
               'category_id' => '16',
-              'producer_id' => '14',
+
               'brand_id'=>'33',
               'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
               'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
@@ -2218,7 +2146,6 @@ class ProductSeeder extends Seeder
             'slug' => 'tableware',
             'type_id'=> '5',
             'category_id' => '17',
-            'producer_id' => '17',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -2234,7 +2161,6 @@ class ProductSeeder extends Seeder
             'slug' => 'tableware',
             'type_id'=> '5',
             'category_id' => '18',
-            'producer_id' => '18',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -2249,7 +2175,6 @@ class ProductSeeder extends Seeder
             'slug' => 'tableware',
             'type_id'=> '5',
             'category_id' => '3',
-            'producer_id' => '19',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -2268,7 +2193,6 @@ class ProductSeeder extends Seeder
             'slug' => 'tableware',
             'type_id'=> '5',
             'category_id' => '4',
-            'producer_id' => '20',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -2285,7 +2209,6 @@ class ProductSeeder extends Seeder
             'slug' => 'tableware',
             'type_id'=> '5',
             'category_id' => '17',
-            'producer_id' => '17',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);
@@ -2302,7 +2225,6 @@ class ProductSeeder extends Seeder
             'slug' => 'tableware',
             'type_id'=> '5',
             'category_id' => '17',
-            'producer_id' => '18',
             'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
             'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
         ]);

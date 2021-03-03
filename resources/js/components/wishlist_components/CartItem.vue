@@ -20,13 +20,13 @@
                 <p class="font-weight-bold pt-3">Кол-во:</p>
                 <div class="value-button m-1" id="decrease"  @click="decrementItem">
                     <picture>
-                        <img :src="`storage/img/left.svg`" alt="" class="block-btn-qty__left">
+                        <img :src="'/img/left.svg'"  alt="" class="block-btn-qty__left">
                     </picture>
                 </div>
                 <input type="number" id="number" :value='product.quantity' class=" m-1 value-button" min="1" required readonly />
                 <div class="value-button  m-1" id="increase" @click="incrementItem">
                     <picture>
-                        <img :src="`storage/img/right.svg`" alt="" class="block-btn-qty__right">
+                        <img :src="'/img/right.svg'" alt="" class="block-btn-qty__right">
                     </picture>
                 </div>
             </div>
@@ -39,7 +39,7 @@
         <div class="pt-3">
             <button class="btn-cancel mt-3" @click="deleteWishlist(product.id)">
                 <picture>
-                    <img :src="`storage/img/close.svg`" alt="" class="close-icon">
+                    <img :src="'/img/close.svg'" alt="" class="close-icon">
                 </picture>
             </button>
         </div>
