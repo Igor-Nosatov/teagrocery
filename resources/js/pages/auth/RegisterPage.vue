@@ -1,5 +1,5 @@
 <template>
-    <main class="main pb-4 pl-2 pr-2">
+    <main class="main pb-4 pl-2 pr-2 pt-5 pb-5">
         <div class="wrapper">
             <div class="row no-gutters  justify-content-center">
                 <BreadcrumbItem :pageName="pageName" />

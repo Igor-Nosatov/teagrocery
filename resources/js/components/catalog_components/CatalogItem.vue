@@ -31,7 +31,7 @@
                     Подробнее
                     <picture>
                         <img
-                            :src="`storage/img/cart.svg`"
+                            :src="'/img/cart.svg'"
                             alt=""
                             class="btn-image"
                         />

@@ -32,7 +32,7 @@ class CatalogController extends Controller
     $data['products'] = $this->getProducts->execute($slug);
     $data['categories'] = $this->getCategories->execute($slug);
     $data['brands'] = $this->getBrands->execute($slug);
-    $data['prices']  = $this->getPrices->execute($priceService);
+    $data['prices']  = $this->getPrices->execute($priceService, $slug);
     return response()->json($data, 200);
    }
 }

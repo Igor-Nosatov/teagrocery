@@ -1,16 +1,6 @@
 <template>
 <main class="main">
-    <div class="row no-gutters">
-        <div class="col-12 pl-3">
-            <nav aria-label="breadcrumb ml-4">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Главная</a></li>
-                    <li class="breadcrumb-item"><a href="#">Каталог</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"></li>
-                </ol>
-            </nav>
-            <h3 class="font-weight-bold pl-4">Чай</h3>
-        </div>
+    <div class="row no-gutters pt-5">
         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
             <aside class="aside">
                 <form>
@@ -36,9 +26,9 @@
                         </div>
                         <div class="col-12" >
                             <label class="container" v-for="(category, index) in categories" :key="index" >
-                                <span class="checkbox-text">{{ category.name }} ({{ category.products_count }})</span>
-                                <input type="checkbox" name="category" :value="category.id" :id="'category'+index" v-model="selected.categories">
-                                <span class="checkmark"></span>
+                                <span v-if="category.products_count !== 0" class="checkbox-text">{{ category.name }} ({{ category.products_count }})</span>
+                                <input v-if="category.products_count !== 0" type="checkbox" name="category" :value="category.id" :id="'category'+index" v-model="selected.categories">
+                                <span v-if="category.products_count !== 0" class="checkmark"></span>
                             </label>
                         </div>
                     </div>
@@ -51,9 +41,9 @@
                         </div>
                         <div class="col-12">
                              <label class="container" v-for="(price, index) in prices" :key="index">
-                                <span class="checkbox-text"> {{ price.name }}</span>
-                                <input type="checkbox" name="category" :value="index" :id="'price'+index" v-model="selected.prices">
-                                <span class="checkmark"></span>
+                                <span  v-if="price.products_count !== 0" class="checkbox-text"> {{ price.name }} ({{ price.products_count }})</span> 
+                                <input  v-if="price.products_count !== 0" type="checkbox" name="category" :value="index" :id="'price'+index" v-model="selected.prices">
+                                <span  v-if="price.products_count !== 0" class="checkmark"></span>
                             </label>
                         </div>
                     </div>
@@ -66,9 +56,9 @@
                         </div>
                         <div class="col-12">
                             <label class="container" v-for="(brand, index) in brands" :key="index">
-                                <span class="checkbox-text">{{ brand.name }} ({{ brand.products_count }})</span>
-                                <input type="checkbox" name="brand" :value="brand.id" :id="'brand'+index" v-model="selected.brands">
-                                <span class="checkmark"></span>
+                                <span  v-if="brand.products_count !== 0"  class="checkbox-text">{{ brand.name }} ({{ brand.products_count }})</span>
+                                <input   v-if="brand.products_count !== 0" type="checkbox" name="brand" :value="brand.id" :id="'brand'+index" v-model="selected.brands">
+                                <span   v-if="brand.products_count !== 0" class="checkmark"></span>
                             </label>
                         </div>
                     </div>
@@ -79,11 +69,11 @@
             <div class="row no-gutters">
                 <div class="col-12">
                     <div class="d-flex flex-row flex-wrap justify-content-between">
-                        <div class="product-qty  w-25">
-                            <input type="text" name="search" class="form-control" id="productSearch" placeholder="Поиск ..." v-model="selected.custom_search">
-                            <p class="font-weight-bold pt-2 pl-2">В наличии ({{ this.meta_data.total }}) шт.</p>
+                        <div class="product-qty">
+                            <input type="text" name="search" class="ml-3 form-control" id="productSearch" placeholder="Поиск ..." v-model="selected.custom_search">
+                            <p class="font-weight-bold pt-2 pl-3">В наличии ({{ this.meta_data.total }}) шт.</p>
                         </div>
-                        <div class="product-sort d-flex  ">
+                        <div class="product-sort">
                             <div class="dropdown">
                                 <button class="btn-sort p-3" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Сортировать по цене:
@@ -233,9 +223,11 @@ export default {
                 });
         },
         async fetchPrices() {
-            this.prices = await this.getPrice(`${this.$route.params.slug}`, {
+            await axios.get(`/api/catalog/${this.$route.params.slug}`, {
                 params: _.omit(this.selected, "prices")
-            });
+            }).then((res) => {
+                    this.prices = res.data.prices;
+                });
         },
     }
 }

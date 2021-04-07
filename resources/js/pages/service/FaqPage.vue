@@ -1,9 +1,9 @@
 <template>
-    <main class="main mt-5 mb-5">
+    <main class="main pt-5 pb-5 pr-2 pl-2">
         <div class="wrapper">
             <div class="row no-gutters">
                 <BreadcrumbItem :pageName="pageName" />
-                <div id="content" class="col-md-9 col-sm-12">
+                <div id="content" class="col-11 col-sm-11 col-md-10 col-lg-8">
                     <h1>Условия соглашения</h1>
                     <p>
                         <span style="font-size:16px;"><b>1. Введение</b></span>

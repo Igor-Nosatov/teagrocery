@@ -1,9 +1,9 @@
 <template>
-    <main class="main pt-5">
+    <main class="main pt-5 pb-5 pl-2 pr-2">
         <div class="wrapper">
             <div class="row no-gutters">
                 <BreadcrumbItem :pageName="pageName" />
-                <div class="text-content col-md-24">
+                <div class="text-content col-11 col-sm-11 col-md-10 col-lg-8">
                     <h3>
                         <strong
                             ><span style="color:#006400;"

@@ -1,9 +1,10 @@
 <template>
-    <main class="main pt-5 pb-3">
+    <main class="main pt-5 pb-5 pl-2 pr-2">
         <div class="wrapper">
             <div class="row no-gutters">
                 <BreadcrumbItem :pageName="pageName" />
-                <div class="ContentPage">
+                <div class="col-11 col-sm-11 col-md-10 col-lg-8">
+<div class="ContentPage">
                     <div class="h1">Поставщикам</div>
 
                     <p>
@@ -90,6 +91,7 @@
                             >tea&grocery@tea&grocery.md</a
                         >.
                     </p>
+                </div>
                 </div>
             </div>
         </div>

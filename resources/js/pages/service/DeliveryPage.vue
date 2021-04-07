@@ -1,9 +1,9 @@
 <template>
-    <main class="main pt-5">
+    <main class="main pt-5 pb-5 pl-2 pr-2">
         <div class="wrapper">
             <div class="row no-gutters">
                 <BreadcrumbItem :pageName="pageName" />
-                <div class="col-lg-12 col-sm-12 pt-3">
+                <div class="col-lg-11 col-sm-11 col-md-10 col-lg-8 pt-3">
                     <div class="tab-pane-inner">
                         <div>
                             <h3 class="font-weight-bold">

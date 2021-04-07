@@ -1,9 +1,9 @@
 <template>
-    <main class="main pt-5">
+    <main class="main pt-5 pb-5">
         <div class="wrapper">
             <div class="row no-gutters">
                 <BreadcrumbItem :pageName="pageName" />
-                <div class="text-content col-md-24">
+                <div class="text-content col-11 col-sm-10 col-md-9 col-lg-8">
                     <h2 class="text-center">
                         <strong
                             ><span class="text-success">О нас...</span></strong

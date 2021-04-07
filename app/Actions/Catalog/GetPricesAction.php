@@ -7,12 +7,14 @@ use App\Services\PriceService;
 
 final class GetPricesAction
 {
-    public function execute(PriceService $priceService)
+    public function execute(PriceService $priceService, $slug)
     {
         return $priceService->getPrices(
             request()->input('prices', []),
             request()->input('categories', []),
-            request()->input('brands', [])
+            request()->input('brands', []), 
+            $slug
         );
     }
 }
+
